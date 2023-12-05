@@ -1,5 +1,5 @@
 // @ts-check
 
-import { askName } from "./src/cli.js";
+import askName from './src/cli.js';
 
-export { askName };
+export default askName;
