@@ -1,5 +1,6 @@
 // @ts-check
 
 import askName from './src/cli.js';
+import evenGame from './src/games/even.js';
 
-export default askName;
+export { askName, evenGame };

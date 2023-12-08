@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
-import askName from '../index.js';
+import { askName } from '../index.js';
 
 console.log('Welcome to the Brain Games!');
 
-askName();
+console.log(`Hello, ${askName()}!`);
