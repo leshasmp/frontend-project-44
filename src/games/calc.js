@@ -1,7 +1,7 @@
 import gameRunner from '../game.js';
 
 const randomOperator = () => {
-  const operators = ['+', '-', '*', '/'];
+  const operators = ['+', '-', '*'];
   const random = Math.floor(Math.random() * operators.length);
 
   return operators[random];
@@ -27,7 +27,7 @@ const calculate = (number1, number2, operator) => {
   return result.toString();
 };
 
-const randomNumber = () => Math.floor(Math.random() * 100) + Math.floor(Math.random() * 100);
+const randomNumber = () => Math.floor(Math.random() * 100) + 1;
 
 const conditions = () => {
   const number1 = randomNumber();

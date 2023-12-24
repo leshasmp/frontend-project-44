@@ -1,6 +1,6 @@
 import gameRunner from '../game.js';
 
-const randomNumber = () => Math.floor(Math.random() * 100) + Math.floor(Math.random() * 100);
+const randomNumber = () => Math.floor(Math.random() * 100) + 1;
 
 const gcd = (num1, num2) => {
   if (num2 === 0) {
