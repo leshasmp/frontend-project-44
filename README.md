@@ -14,3 +14,15 @@ Simple games to run in the terminal console
 Answer "yes" if the number is even, otherwise answer "no".
 
 [![asciicast](https://asciinema.org/a/627359.svg)](https://asciinema.org/a/627359)
+
+## Brain calc
+
+What is the result of the expression?
+
+[![asciicast](https://asciinema.org/a/628700.svg)](https://asciinema.org/a/628700)
+
+## Brain gcd
+
+Find the greatest common divisor of given numbers.
+
+[![asciicast](https://asciinema.org/a/628702.svg)](https://asciinema.org/a/628702)
