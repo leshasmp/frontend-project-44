@@ -14,7 +14,10 @@ const conditions = () => {
   const number1 = randomNumber();
   const number2 = randomNumber();
 
-  return [`${number1} ${number2}`, gcd(number1, number2)];
+  const question = `${number1} ${number2}`;
+  const answer = gcd(number1, number2);
+
+  return [question, answer];
 };
 
 const description = 'Find the greatest common divisor of given numbers.';

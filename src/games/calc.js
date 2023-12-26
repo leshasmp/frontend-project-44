@@ -34,7 +34,10 @@ const conditions = () => {
   const number2 = randomNumber();
   const operator = randomOperator();
 
-  return [`${number1} ${operator} ${number2}`, calculate(number1, number2, operator)];
+  const question = `${number1} ${operator} ${number2}`;
+  const answer = calculate(number1, number2, operator);
+
+  return [question, answer];
 };
 
 const description = 'What is the result of the expression?';

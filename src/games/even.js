@@ -4,7 +4,9 @@ const conditions = () => {
   const number = Math.floor(Math.random() * 100) + 1;
   const answer = number % 2 === 0 ? 'yes' : 'no';
 
-  return [number, answer];
+  const question = number;
+
+  return [question, answer];
 };
 
 const description = 'Answer "yes" if the number is even, otherwise answer "no".';
