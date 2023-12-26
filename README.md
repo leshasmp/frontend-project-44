@@ -26,3 +26,9 @@ What is the result of the expression?
 Find the greatest common divisor of given numbers.
 
 [![asciicast](https://asciinema.org/a/628702.svg)](https://asciinema.org/a/628702)
+
+## Brain progression
+
+What number is missing in the progression?
+
+[![asciicast](https://asciinema.org/a/628982.svg)](https://asciinema.org/a/628982)
