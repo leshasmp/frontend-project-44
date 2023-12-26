@@ -32,3 +32,9 @@ Find the greatest common divisor of given numbers.
 What number is missing in the progression?
 
 [![asciicast](https://asciinema.org/a/628982.svg)](https://asciinema.org/a/628982)
+
+## Brain prime
+
+Answer "yes" if given number is prime. Otherwise answer "no".
+
+[![asciicast](https://asciinema.org/a/628994.svg)](https://asciinema.org/a/628994)
