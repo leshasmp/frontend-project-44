@@ -17,6 +17,8 @@ const showCorrectMessage = () => console.log('Correct!');
 
 const showWelcomeMessage = () => console.log('Welcome to the Brain Games!');
 
+const showGreetingMessage = (name) => console.log(`Hello, ${name}!`);
+
 const showMessage = (msg) => console.log(msg);
 
 const runGame = (name, conditions, correctAnswersCount, attemptsCount) => {
@@ -42,6 +44,8 @@ export default (description, conditions, correctAnswersCount = 0, attemptsCount 
   showWelcomeMessage();
 
   const name = askName();
+
+  showGreetingMessage(name);
 
   showMessage(description);
 
